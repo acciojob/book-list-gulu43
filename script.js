@@ -17,6 +17,7 @@ submit_var.addEventListener('click', function (event) {
 
     let col_delete_var = document.createElement('td');
     let delete_btn = document.createElement('button');
+	delete_btn.className = 'delete';
     delete_btn.textContent = 'X';
     delete_btn.style.color = 'red';
     col_delete_var.append(delete_btn);
